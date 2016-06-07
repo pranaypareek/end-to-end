@@ -1,5 +1,5 @@
 jobs:
   - name: e2e-job
-    type: manifest
+    type: ecsDeploy
     steps:
       - GET e2e-busybox-image
