@@ -6,10 +6,3 @@ resources:
       name: "library/busybox"
       isPull: true
       tag: latest
-  - name: e2e-nginx-image
-    type: image
-    integration: pranay-docker
-    source:
-      name: "library/nginx"
-      isPull: true
-      tag: latest
