@@ -2,5 +2,3 @@ jobs:
   - name: e2e-job
     type: manifest
     steps:
-      - GET e2e-busybox-image
-      - PUT e2e-busybox-image
