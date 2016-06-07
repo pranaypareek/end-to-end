@@ -1,5 +1,5 @@
 resources:
-  - name: busybox
+  - name: e2e-busybox-image
     type: image
     integration: revathi-docker
     source:
