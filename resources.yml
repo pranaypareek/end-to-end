@@ -1,7 +1,7 @@
 resources:
   - name: e2e-busybox-image
     type: image
-    integration: revathi-docker
+    integration: pranay-docker
     source:
       name: "library/busybox"
       isPull: true
